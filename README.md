@@ -4,25 +4,9 @@ This is my Master's Degree thesis repository. It's about Signal Modulation Class
 
 Inbound signals are encoded using different kind of modulations, so it's mandatory to know (or predict) the modulation used in order to decode the signal content. AMR (Automatic Modulation Recognition) can be used to predict the modulation of an inbound signal. Deep Learning tecniques can be used for AMR, and that's what I did with my Master Degree thesis.
 Project structure description
-The project contains different neural network trainings. Each directory contains the trainings for a different data version. Inside each directory there are the .ipynb files which are the neural network trainings for the data version specified by the directory where they are. The schema below describes an example of the directory tree structure used in this project.
-.
-├── ...
-│
-├── DatasetTransformation 1
-│	│
-│	├── neural_network_1_training.ipynb
-│	│ ...
-│	└── neural_network_M_training.ipynb
-│
-├── ...
-│
-├── DatasetTransformation N
-│	│
-│	├── neural_network_1_training.ipynb
-│	│ ...
-│	└── neural_network_M_training.ipynb
-│
-└── ...
+The project contains different neural network trainings. Each directory contains the trainings for a different data version. Inside each directory there are the .ipynb files which are the neural network trainings for the data version specified by the directory where they are. The schema below describes an example of the directory tree structure used in this project
+├── DatasetTransformation 1 ----- 1)   neural_network_1_trainig.ipynb 2) neural_network_M_training.ipynb
+├── DatasetTransformation N  -----1) neural_network_1_training.ipynb  2) neural_network_M_training.ipynb
 Directories
 The project contains different neural network trainings. Inside the IQ directory there are the ones with the raw dataset, the other ones are using a pre-processing of the dataset before the training. All the directories content is shown in the table below.
 
@@ -75,3 +59,10 @@ CNN2 neural network
 RadioML2018.01a, an extended version of the dataset used in my project	
 Baseline neural network, relabeling and ensamble learning	
 Batch normalization	
+FILE INFO-
+template--- template for Automatic modulation classification
+RML.2016.10a_dict_analysis--- Data for model
+freehand_nn --- technique for cnn
+freehand _NN-v3-85perc-trainset-4-increment---technquie to train the data 
+run_all_notebooks---python code to extract the data
+CNN2_IQ-DFT---code for Decimination in time dft
