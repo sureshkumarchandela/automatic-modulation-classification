@@ -1,8 +1,8 @@
 # automatic-modulation-classification
 SANTANDER NATH INTERNSHIP NIT SILCHAR PROJECT
-This is my Master's Degree thesis repository. It's about Signal Modulation Classification using Deep Learning.
+This is my project of summer intership at Nit silchar  repository. It's about Signal Modulation Classification using Deep Learning.
 
-Inbound signals are encoded using different kind of modulations, so it's mandatory to know (or predict) the modulation used in order to decode the signal content. AMR (Automatic Modulation Recognition) can be used to predict the modulation of an inbound signal. Deep Learning tecniques can be used for AMR, and that's what I did with my Master Degree thesis.
+Inbound signals are encoded using different kind of modulations, so it's mandatory to know (or predict) the modulation used in order to decode the signal content. AMR (Automatic Modulation Recognition) can be used to predict the modulation of an inbound signal. Deep Learning tecniques can be used for AMR.
 Project structure description
 The project contains different neural network trainings. Each directory contains the trainings for a different data version. Inside each directory there are the .ipynb files which are the neural network trainings for the data version specified by the directory where they are. The schema below describes an example of the directory tree structure used in this project
 ├── DatasetTransformation 1 ----- 1)   neural_network_1_trainig.ipynb 2) neural_network_M_training.ipynb
@@ -59,7 +59,7 @@ CNN2 neural network
 RadioML2018.01a, an extended version of the dataset used in my project	
 Baseline neural network, relabeling and ensamble learning	
 Batch normalization	
-FILE INFO-
+FILE INFO-                
 template--- template for Automatic modulation classification
 RML.2016.10a_dict_analysis--- Data for model
 freehand_nn --- technique for cnn
